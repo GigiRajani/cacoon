@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Sanskrit: Quiz - Chapters: 1 - 5.</h1>
+
+    <!--    Form Starts -->
+
+    <form action="#" method="#" class="quiz" name="quiz">
+
+
+        <!--    Question 1 -->
+
+        <fieldset id="q1" data-correct-answer="q1-ans-d">
+            
+                <div class="quest-1">
+                <img src="assets/lesson1.png" alt="letter k with long i vowel and letter jh with short i vowel">
+
+                 </div>
+
+                <div class="q1-text-responses">
+
+                     <legend>Question 1: How are these two consonants pronounced differently?</legend>
+
+                    <input type="radio" name="question-1" value="q1-ans-a" id="ans-a" checked>
+                    <label for="ans-a">vowel length, voicing, place of articulation, aspiration</label>
+
+                     <input type="radio" name="question-1" value="q1-ans-b" id="ans-b">
+                    <label for="ans-b">vowel length, voicing, place of articulation, nasalization</label>
+          
+                    <input type="radio" name="question-1" value="q1-ans-c" id="ans-c">
+                    <label for="ans-c">voicing, frequency, place of articulation, aspiration</label>
+          
+                    <input type="radio" name="question-1" value="q1-ans-d" id="ans-d">
+                    <label for="ans-d">voicing, place of articulation, aspiration, manner</label>
+                </div>
+                <button type="submit">Submit</button>
+          
+        </fieldset>
+
+        <!--    Question 2 -->
+
+        <fieldset id="q2" data-correct-answer="q2-ans-b">
+                <div class="quest-2">
+                <img src="assets/lesson2.png" alt="sanskrit devanagari all in genetive singular masculine or neuter sarva stem">
+
+                 </div>
+
+                <div class="q2-text-responses">
+
+                     <legend>Question 2: How would this word meaning "of all", "all", or "all of" ?</legend>
+
+                    <input type="radio" name="question-2" value="q2-ans-a" id="ans-a" checked>
+                    <label for="ans-a">saravasya</label>
+
+                     <input type="radio" name="question-2" value="q2-ans-b" id="ans-b">
+                    <label for="ans-b">sarvasya</label>
+
+          
+                    <input type="radio" name="question-2" value="q2-ans-c" id="ans-c">
+                    <label for="ans-c">savrasy</label>
+          
+                    <input type="radio" name="question-2" value="q2-ans-d" id="ans-d">
+                    <label for="ans-d">savarasya</label>
+                </div>
+                <button type="submit2">Submit</button>
+          
+        </fieldset>
+
+<!--    Question 3 -->
+
+        <fieldset id="q3" data-correct-answer="q3-ans-c">
+            <div class="quest-3">
+
+
+            <div class="q3-text-responses">
+                <legend>Question 3: After all the external sandhi or euphonic sound changes have applied which of these would be our final pronounced sentence?</legend>
+                <img src="./assets/q3qimg.png" alt="tat + shrutvaa + kupitas + abhavat + shiva">
+
+             </div>
+
+
+                 <div class="q3ansA">
+                    <div class="image-q3ansA">
+                     <img src="./assets/q3ansA.png" alt="tatcrutvā kupitarabhavat śivaḥ">
+
+                    </div>
+                    <input type="radio" name="question-3" value="q3-ans-a" id="ans-a" checked>
+                    <label for="ans-a">tatcrutvā kupitarabhavat śivaḥ</label>
+                 </div>
+
+                 <div class="q3ansb">
+                    <div class="image-q3ansB">
+                        <img src="./assets/q3ansB.png" alt="tat   śrutvā kupito  ‘bhavatcivaḥ">
+                    </div>
+                    <input type="radio" name="question-3" value="q3-ans-b" id="ans-b">
+                    <label for="ans-b">tat śrutvā kupito ‘bhavatcivaḥ</label>
+                 </div>
+
+                
+
+                 <div class="q3ansc">
+
+                    <div class="image-q3ansC">
+                        <img src="./assets/q3ansC.png" alt="taccrutvā  kupito   ‘bhavatcchivaḥ">
+                    </div>
+
+                    <input type="radio" name="question-3" value="q3-ans-c" id="ans-c">
+                    <label for="ans-c">taccrutvā kupito ‘bhavatcchivaḥ</label>
+                 </div>
+
+                 <div class="q3ansd"> 
+                    <div class="image-q3ansD">
+                        <img src="./assets/q3ansD.png" alt="tacchrutvā  kupitaḥ ‘bavachivo">
+                    </div>
+                    <input type="radio" name="question-3" value="q3-ans-d" id="ans-d">
+                    <label for="ans-d">tacchrutvā kupitaḥ ‘bavachivo</label>
+                 </div>
+                
+            </div>
+            <button type="submit3">Submit</button>
+      
+    </fieldset>
+      
+      </form>
+      <div class="tallyBoard">
+
+        <p class="correctQuestions"></p>
+        <p class="wrongQuestions"></p>
+        <p class="tally"></p>
+    </div>
+
+
+    
+    <script src='https://code.jquery.com/jquery-3.4.0.min.js' integrity='sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=' crossorigin='anonymous'></script>
+    <script src="./script.js"></script>
+</body>
+</html>
